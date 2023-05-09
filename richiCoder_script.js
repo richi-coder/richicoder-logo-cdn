@@ -1,3 +1,4 @@
+// Create element
 const root = document.createElement('div');
 root.innerHTML = 'richiCoder';
 root.style.position = 'fixed';
