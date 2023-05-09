@@ -2,9 +2,7 @@ const link = document.createElement('link');
 link.href = 'https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600&display=swap';
 link.rel = 'stylesheet'
 document.head.appendChild(link)
-link.addEventListener('load', () => {
-    createRoot()
-})
+link.addEventListener('load', createRoot())
 
 
 
