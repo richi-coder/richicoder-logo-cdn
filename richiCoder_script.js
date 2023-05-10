@@ -39,5 +39,5 @@ function createRoot() {
             span.style.webkitBackgroundClip = 'text'
             span.style.backgroundSize = '400%'
             span.style.backgroundPosition = 0
-        }, 1000);
+        }, 1000)
 }
