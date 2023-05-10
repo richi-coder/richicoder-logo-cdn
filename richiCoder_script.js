@@ -3,11 +3,7 @@ link.href = 'https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600&disp
 link.rel = 'stylesheet'
 document.head.appendChild(link)
 link.addEventListener('load', createRoot())
-
-
-
 function createRoot() {
-
     // Create element
         const root = document.createElement('a');
         root.href = 'https://richicoder.com';
@@ -23,7 +19,6 @@ function createRoot() {
         root.style.transition = 'transform 0.2s ease-out, opacity 1s ease-in-out';
         root.style.cursor = 'pointer';
         root.style.opacity = 0
-
         setTimeout(() => {
             document.body.appendChild(root);
             setTimeout(() => {
@@ -36,7 +31,6 @@ function createRoot() {
                 root.style.transform = 'translateX(-50%)'
             })
         }, 1000);
-
 }
 
 
