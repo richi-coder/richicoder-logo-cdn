@@ -41,23 +41,3 @@ function createRoot() {
             span.style.backgroundPosition = 0
         }, 1000);
 }
-
-
-/* 
-:root {
-    --accent: 124, 58, 237;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      #00407c 30%,
-      white 60%
-    );
-  }
-.text-gradient {
-    background-image: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
-}
-*/
