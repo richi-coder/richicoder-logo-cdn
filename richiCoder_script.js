@@ -32,6 +32,3 @@ function createRoot() {
             })
         }, 1000);
 }
-
-
-
